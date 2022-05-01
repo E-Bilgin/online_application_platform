@@ -150,12 +150,14 @@ elif choose == "Contact":
 url = "https://ee.kobotoolbox.org/x/tYuoOA2m" #url is for the platform that we collect data from participants,Kobo or Googleform
 #st.sidebar.write("[APPLY NOW](%s)" % url)
 
-if st.sidebar.button('APPLY'):
-    webbrowser.open_new_tab(url)
+#if st.sidebar.button('APPLY'):
+    #webbrowser.open_new_tab(url)
 st.sidebar.write("Deadline 17/05/2022")
-if st.button('APPLY NOW'):
-    webbrowser.open_new_tab(url)
+st.sidebar.write("[APPLY NOW](%s)" % url)
+#if st.button('APPLY NOW'):
+    #webbrowser.open_new_tab(url)
 st.write("Deadline 17/05/2022")
+st.markdown("[APPLY NOW](%s)" % url)
 
 #st.markdown("check out this [link](%s)" % url)
 
