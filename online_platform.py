@@ -9,7 +9,7 @@ import hydralit_components as hc
 from streamlit_option_menu import option_menu
 import streamlit.components.v1 as html
 #from  PIL import ImageChops
-import plotly.express as px
+#import plotly.express as px
 import webbrowser
 
 
